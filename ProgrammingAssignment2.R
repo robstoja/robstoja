@@ -36,4 +36,7 @@ cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
 }
 
+a <-matrix(1:4,2,2)
+makeCacheMatrix(a)
+
 cachemean([2,])
